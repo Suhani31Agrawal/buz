@@ -24,7 +24,7 @@ const TabNavigator = createBottomTabNavigator({
       if(routeName === "WriteStory"){
         return(
           <Image
-          source={require("./assets/write.png")}
+          source={require("./write.png")}
           style={{width:40, height:40}}
         />
         )
